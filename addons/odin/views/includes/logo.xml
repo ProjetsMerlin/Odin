@@ -1,0 +1,5 @@
+<odoo>
+<template id="odin_logo" name="Logo Odin" t-name="odin_logo" >
+  <img t-att-src="'/web/image/website/%s/logo' % website.id" alt="qsd" class="h-10"/>
+</template>
+</odoo>

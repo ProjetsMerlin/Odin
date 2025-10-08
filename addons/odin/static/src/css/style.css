@@ -1,0 +1,31 @@
+*,*::after,*::before {
+    box-sizing: border-box;
+}
+
+:root {
+    --color_primary: #4f46e5;
+    --color_dark: black;
+    --color_grey: #dedede;
+    --color_text: grey;
+}
+
+.odin .bg_dark {
+    background-color: var(--color_dark)
+}
+
+.color_primary {
+    color: var(--color_primary)
+}
+
+.color_grey {
+    color: var(--color_grey)
+}
+
+.color_text {
+    color: var(--color_text)
+}
+
+#top,
+#bottom {
+    display: none;
+}

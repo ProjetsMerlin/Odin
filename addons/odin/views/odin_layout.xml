@@ -1,0 +1,27 @@
+<odoo>
+    <template id="odin_home" name="Odin Home" t-name="odin.odin_home">
+        <xpath expr="//head" position="inside">
+            <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+            <link rel="stylesheet" href="/odin/static/src/css/style.css"/>
+        </xpath>
+
+        <div id="wrapwrap" class="odin">
+            <header class="bg_dark">
+                <t t-call="odin.odin_nav"/>
+            </header>
+
+            <main id="wrap">
+                <t t-call="odin.odin_about" />
+            </main>
+
+            <footer class="odin-footer bg-light text-center py-4 mt-5">
+                <p class="mt-10 py-10 border-t border-(--color_grey) md:text-center text-(--color_text)">
+                    <t t-esc="datetime.datetime.now().year"/>
+                    <span class="separate"> - </span>
+                    <span t-esc="website.company_id.name"/>
+                </p>
+            </footer>
+
+        </div>
+    </template>
+</odoo>
