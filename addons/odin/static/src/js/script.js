@@ -1,3 +1,3 @@
-document.addEventListener('DOMContentLoaded', () => {
-    console.log("Odin theme loaded successfully!");
+document.addEventListener("DOMContentLoaded", () => {
+  console.log("Odin theme loaded successfully!");
 });

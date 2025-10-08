@@ -10,8 +10,7 @@
         'views/odin_layout.xml',
         'views/includes/logo.xml',
         'views/includes/navigation.xml',
-        'views/includes/about.xml',
-        #'views/pages/home.xml',
+        'views/includes/about.xml'
     ],
     'assets': {
         'web.assets_frontend': [
