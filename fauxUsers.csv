@@ -1,0 +1,6 @@
+name,login,email,fonction,linkedin_url,twitter_url,share,password,avatar
+Alice Martin,alice.martin@example.com,alice.martin@example.com,Product Manager,https://www.linkedin.com/in/alicemartin,https://twitter.com/alicemartin,False,demo123,https://randomuser.me/api/portraits/women/79.jpg
+Julien Dupont,julien.dupont@example.com,julien.dupont@example.com,Lead Developer,https://www.linkedin.com/in/juliendupont,https://twitter.com/juliendupont,False,demo123,https://randomuser.me/api/portraits/women/63.jpg
+Sophie Bernard,sophie.bernard@example.com,sophie.bernard@example.com,UX Designer,https://www.linkedin.com/in/sophiebernard,https://twitter.com/sophiebernard,False,demo123,https://randomuser.me/api/portraits/men/86.jpg
+Marc Leroy,marc.leroy@example.com,marc.leroy@example.com,CTO,https://www.linkedin.com/in/marcleroy,https://twitter.com/marcleroy,False,demo123,https://randomuser.me/api/portraits/men/46.jpg
+Camille Fournier,camille.fournier@example.com,camille.fournier@example.com,Marketing Manager,https://www.linkedin.com/in/camillefournier,https://twitter.com/camillefournier,False,demo123,https://randomuser.me/api/portraits/men/69.jpg

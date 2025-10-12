@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Action pour afficher les paragraphes -->
+    <record id="action_paragraph_text" model="ir.actions.act_window">
+        <field name="name">Paragraphes Website</field>
+        <field name="res_model">website.paragraph.text</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- Menu parent (dans le menu Website) -->
+    <menuitem id="menu_website_paragraph_root" name="Contenus Website" parent="website.menu_website_configuration" sequence="10" />
+
+    <!-- Menu enfant : Paragraphes -->
+    <menuitem id="menu_website_paragraph_text" name="Paragraphes" parent="menu_website_paragraph_root" action="action_paragraph_text" sequence="1" />
+</odoo>

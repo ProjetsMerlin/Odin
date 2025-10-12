@@ -1,0 +1,14 @@
+<odoo>
+    <template id="odin_textCenter" name="Texte centré Odin" t-name="odin.odin_textCenter">
+        <section id="team" class="max-w-screen-xl mx-auto px-4 md:px-8">
+            <div class="max-w-xl text-center mx-auto mb-16">
+                <h3 class="color_primary text-3xl font-bold sm:text-4xl">
+                Meet our team
+                </h3>
+                <p class="text-gray-600 mt-3">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+                </p>
+            </div>
+        </section>
+    </template>
+</odoo>

@@ -5,12 +5,21 @@
     'category': 'Website/Website',
     'author': 'lintermemdaire.be',
     'license': 'LGPL-3',
-    'depends': ['website'],
+    'depends': ['base','website'],
     'data': [
+        'security/ir.model.access.csv',
+        'views/content.xml',
         'views/odin_layout.xml',
         'views/includes/logo.xml',
         'views/includes/navigation.xml',
-        'views/includes/about.xml'
+        'views/includes/footer.xml',
+        'views/includes/about.xml',
+        'views/includes/textCenter.xml',
+        'views/includes/team.xml',
+        'views/includes/contactForm.xml',
+        'views/includes/services.xml',
+        'views/tankyou.xml',
+        'views/page404.xml',
     ],
     'assets': {
         'web.assets_frontend': [

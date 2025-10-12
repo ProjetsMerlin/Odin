@@ -1,0 +1,11 @@
+<odoo>
+    <template id="odin_footer" name="Odin - Footer" t-name="odin.odin_footer">
+        <footer class="odin-footer bg-light text-center">
+            <p class="py-10 border-t border-(--color_grey) md:text-center text-(--color_text)">
+                <t t-esc="datetime.datetime.now().year"/>
+                <span class="separate"> - </span>
+                <span t-esc="website.company_id.name"/>
+            </p>
+        </footer>
+    </template>
+</odoo>

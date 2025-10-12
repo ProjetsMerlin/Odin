@@ -6,21 +6,17 @@
         </xpath>
 
         <div id="wrapwrap" class="odin">
-            <header class="bg_dark">
-                <t t-call="odin.odin_nav"/>
-            </header>
+            <t t-call="odin.odin_nav"/>
 
             <main id="wrap">
                 <t t-call="odin.odin_about" />
+                <t t-call="odin.odin_services" />
+                <t t-call="odin.odin_textCenter" />
+                <t t-call="odin.odin_team" />
+                <t t-call="odin.odin_contact" />
             </main>
 
-            <footer class="odin-footer bg-light text-center py-4 mt-5">
-                <p class="mt-10 py-10 border-t border-(--color_grey) md:text-center text-(--color_text)">
-                    <t t-esc="datetime.datetime.now().year"/>
-                    <span class="separate"> - </span>
-                    <span t-esc="website.company_id.name"/>
-                </p>
-            </footer>
+            <t t-call="odin.odin_footer"/>
 
         </div>
     </template>
