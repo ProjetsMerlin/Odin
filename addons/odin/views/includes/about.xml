@@ -22,9 +22,12 @@
         </div>
         <div class="mt-5 mx-auto sm:w-9/12 lg:mt-0 lg:w-1/2">
           <t t-set="website" t-value="request.website"/>
-          <t t-set="img_url" t-value="website.social_default_image or '/odin/static/src/img/container.png'"/>
-          <!-- !!! -->
-          <img t-att-src="'/odin/static/src/img/container.png'" alt="Image SEO personnalisée"/>
+          <t t-if="website.social_default_image">
+            <img t-att-src="'/web/image/website.website/' + str(website.id) + '/social_default_image'" alt="Image SEO personnalisée"/>
+          </t>
+          <t t-else="">
+            <img src="/odin/static/src/img/container.png" alt="Image par défaut"/>
+          </t>
         </div>
       </div>
     </section>
